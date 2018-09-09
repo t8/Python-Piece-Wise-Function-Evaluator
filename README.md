@@ -18,4 +18,5 @@
 - Have pip installed (For fancy text and border boxes in commandline)
 
 &copy; Tate Berenbaum
+
 so no, you cant steal this for your school assignment :smile:
