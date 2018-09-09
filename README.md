@@ -1,8 +1,8 @@
 ### Piecewise Function
 
-> (x - 1)^2     if   x < 1
-2x + 5        if   1 <= x < 4
-sqrt(x - 3)   if   4 <= x < 100
+> (x - 1)^2     if   x < 1 \n
+2x + 5        if   1 <= x < 4 \n 
+sqrt(x - 3)   if   4 <= x < 100 \n
 
 ### Features
 
