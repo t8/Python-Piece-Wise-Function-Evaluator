@@ -6,9 +6,6 @@
 # To do the math:
 import math
 
-# To do the rounding:
-import decimal
-
 # To execute system commands
 import os
 
@@ -98,4 +95,6 @@ while not wantToQuit:
         wantToQuit = True
         break
 
-print("Thanks for using my program duddddeeeee!")
+f2 = Figlet(font='big')
+print (f2.renderText("Thanks!"))
+print("Thank you for using my program broooooo")
