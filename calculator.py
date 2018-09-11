@@ -76,8 +76,10 @@ while not wantToQuit:
         print(xVarDescBanner)
 
         xInput = input()
+        xInpNum = xInput.replace('.', '', 1)
+        xInpNum = xInpNum.replace('-', '', 1)
         # Ensuring inputted variable is a number
-        if xInput.replace('.', '', 1).isdigit() and float(xInput) < 100:
+        if xInpNum.isdigit() and float(xInput) < 100:
             hasNotAnswered = False
             continue
         else:
@@ -97,4 +99,4 @@ while not wantToQuit:
 
 f2 = Figlet(font='big')
 print (f2.renderText("Thanks!"))
-print("Thank you for using my program broooooo")
+print("Thank you for using my program broooo")
